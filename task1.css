@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+
+}
+
+h1 {
+
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 64px;
+    color: #222;
+}
+
+h4 {
+    font-size: 70px;
+    color: #9b1212;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 25px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #222;
+    background-color: lightgoldenrodyellow;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+body {
+    width: 100%;
+
+
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #e3e653;
+    box-shadow: 0 5px 15px rgb(0, 0, 0.06);
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: darkslategray;
+    transition: 0.2s ease;
+
+
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: brown;
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: brown;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+#hero {
+    background-image: url("hero\ 2.jpg");
+    background-repeat: no-repeat;
+    height: 90vmax;
+    width: 100%;
+    background-size: cover;
+    background-position: top 100%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 55px;
+    margin-top: 120px;
+}
+
+#hero h2 {
+    color: rgb(31, 21, 213);
+
+}
+
+#hero button {
+    color: firebrick;
+
+}
